@@ -3,7 +3,7 @@ import Link from "next/link";
 function Signup() {
   return (
     <section className="h-[80vh]">
-      <div className="flex flex-col items-center justify-center px-6 mx-auto h-5/6">
+      <div className="flex flex-col items-center justify-center px-6 mx-auto h-[85vh]">
         <p className="flex items-center mb-8 text-2xl font-semibold text-gray-900 dark:text-white">
           <span className="text-2xl lg:text-4xl">🤩</span>&nbsp;
           <span>{"Let's make the web a better place !"}</span>
@@ -85,8 +85,38 @@ function Signup() {
               </svg>
               Signup with Apple
             </a>
+            <a
+              href="#"
+              className="w-full inline-flex items-center justify-center py-2.5 px-5 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-gray-900 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-neutral-800 dark:text-gray-400 dark:border-neutral-600 dark:hover:text-white dark:hover:bg-neutral-700"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 256 256"
+                className="w-5 h-5 mr-2 text-gray-900 dark:text-white"
+              >
+                <rect
+                  x="0"
+                  y="0"
+                  width="20"
+                  height="20"
+                  fill="none"
+                  stroke="none"
+                />
+                <path fill="#F1511B" d="M121.666 121.666H0V0h121.666z" />
+                <path fill="#80CC28" d="M256 121.666H134.335V0H256z" />
+                <path fill="#00ADEF" d="M121.663 256.002H0V134.336h121.663z" />
+                <path fill="#FBBC09" d="M256 256.002H134.335V134.336H256z" />
+              </svg>
+              Signup with Microsoft
+            </a>
           </div>
         </div>
+        <span className="sm:max-w-md text-center mt-4 text-gray-600 text-sm">
+          Note: To prevent fake accounts, we exclusively support social logins.
+          If you encounter any problems, kindly tweet to us.
+        </span>
       </div>
     </section>
   );

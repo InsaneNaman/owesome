@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Toast } from "flowbite-react";
 
 function NewsLetter() {
   return (
@@ -48,16 +49,6 @@ function NewsLetter() {
                   Subscribe
                 </button>
               </div>
-            </div>
-            <div className="mx-auto max-w-screen-sm text-sm text-left text-gray-500 newsletter-form-footer dark:text-gray-300">
-              We care about the protection of your data.{" "}
-              <Link
-                href="/terms"
-                className="font-medium text-primary-600 dark:text-primary-500 hover:underline"
-              >
-                Read our Privacy Policy
-              </Link>
-              .
             </div>
           </form>
         </div>

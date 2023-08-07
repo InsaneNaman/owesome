@@ -58,33 +58,20 @@ function Page() {
               </a>
             </div>
             <div className="text-sm text-gray-500">
-              By using Flowbite, you agree to its{" "}
+              By using Owesome, you agree to our{" "}
               <Link
                 href="/terms"
                 className="text-primary-600 dark:text-primary-500 hover:underline"
               >
-                license
+                Terms.
               </Link>{" "}
-              and{" "}
-              <Link
-                href="/terms"
-                className="text-primary-600 dark:text-primary-500 hover:underline"
-              >
-                privacy statement
-              </Link>
-              .
             </div>
           </div>
           <div className="hidden lg:mt-0 lg:col-span-5 lg:flex">
             <img
-              className="rounded-lg shadow-lg dark:hidden"
-              src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/hero/text-editor-light.svg"
-              alt="mockup light"
-            />
-            <img
-              className="rounded-lg shadow-lg hidden dark:block"
-              src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/hero/text-editor-dark.svg"
-              alt="mockup dark"
+              className="rounded-lg shadow-lg"
+              src="/images/testimonial.svg"
+              alt="Testimonial"
             />
           </div>
         </div>
