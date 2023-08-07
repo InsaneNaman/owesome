@@ -26,7 +26,7 @@ function Critics() {
           <div className="space-y-4 sm:space-y-6 lg:space-y-8">
             <div>
               <h2 className="text-3xl font-extrabold leading-tight text-gray-900 sm:text-4xl dark:text-white">
-                We invest in the world's potential
+                {"We invest in the world's potential"}
               </h2>
               <p className="mt-4 text-base font-normal text-gray-500 dark:text-gray-400 sm:text-xl">
                 <span className="font-semibold text-gray-900 dark:text-white">
