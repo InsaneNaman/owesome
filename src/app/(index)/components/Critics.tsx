@@ -269,7 +269,7 @@ function Critics() {
                 role="button"
                 onClick={() => setShouldShowSolutions(!shouldShowSolutions)}
               >
-                {shouldShowSolutions ? "See Solutions" : "See Issues"}
+                {shouldShowSolutions ? "See Issues" : "See Solutions"}
                 <svg
                   aria-hidden="true"
                   className="w-5 h-5 ml-2 -mr-1"
